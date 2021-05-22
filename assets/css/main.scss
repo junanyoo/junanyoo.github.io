@@ -2,6 +2,12 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+@charset "utf-8";
+// @import "minimal-mistakes/skins/aqua"; // skin : https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+@import "minimal-mistakes";
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Ubuntu+Mono);
+
 
 // https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#customizing
 // $sans-serif: 'Noto Sans KR';
@@ -9,12 +15,6 @@ $sans-serif: 'Source Sans Pro';
 $monospace: 'Ubuntu Mono';
 //$monospace: 'D2 Coding';
 $type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
-
-@charset "utf-8";
-// @import "minimal-mistakes/skins/aqua"; // skin : https://mmistakes.github.io/minimal-mistakes/docs/configuration/
-@import "minimal-mistakes";
-
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Ubuntu+Mono);
 
 // https://github.com/mmistakes/minimal-mistakes/issues/1219
 html {
