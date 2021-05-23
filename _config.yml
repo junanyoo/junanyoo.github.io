@@ -21,7 +21,8 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "junanyoo"
 description              : "공부한 것들을 기억하고 싶은 것들을 기억하는 블로그입니다"
-url                      : "https://junanyoo.github.io"
+#url                      : "https://junanyoo.github.io"
+url                      : <{{ site.url }}{{ site.baseurl }}/blog/start-blog/>
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -94,7 +95,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "JUNHWAN YOO"
+  name             : "JunHwan YOO"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "공학박사(기계/기계설계), 금형기술사, CAE, python data science"
   location         : "SEOUL"
