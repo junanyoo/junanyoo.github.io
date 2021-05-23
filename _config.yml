@@ -94,9 +94,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "JUNHWAN YOO"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "공학박사(기계/기계설계), 금형기술사, CAE, python data science"
   location         : "SEOUL"
   email            : "junanyoo@hotmail.com"
   links:
