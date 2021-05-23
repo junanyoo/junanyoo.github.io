@@ -8,12 +8,13 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Ubuntu+Mono');
 //@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Noto+Serif+KR:wght@200&family=Source+Sans+Pro:wght@300&display=swap');
 
 // https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#customizing
 // $sans-serif: 'Noto Sans KR';
-$sans-serif: 'Source Sans Pro', 'Noto Serif KR';
-//$monospace: 'Ubuntu Mono';
-$monospace: 'Source Sans Pro', 'Noto Serif KR';
+$sans-serif: 'Source Sans Pro', 'Nanum Gothic Coding', 'Noto Serif KR';
+$monospace: 'Ubuntu Mono';
+//$monospace: 'Source Sans Pro', 'Noto Serif KR';
 //$type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
 $type-size-4-5: 1.0em !default; // Ubuntu Mono is a bit small
 
